@@ -150,8 +150,6 @@ http://localhost:8080/api/v1/distance
 
 4. Hit **Send** to get the response.
 
-![Postman API Call](images/postman-request.png)
-
 ---
 
 ## Unauthorized Error Example
