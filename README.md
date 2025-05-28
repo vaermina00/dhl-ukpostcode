@@ -73,8 +73,8 @@ COLLATE utf8_general_ci;
 CREATE TABLE dhl_hafizin_db.uk_postcodes (
   id INT AUTO_INCREMENT PRIMARY KEY,
   postcode VARCHAR(10),
-  latitude DECIMAL(9,6),
-  longitude DECIMAL(9,6)
+  latitude VARCHAR(20),
+  longitude VARCHAR(20)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
 -- indexing
